@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716146407 source:d:\documents\universidad\umg\semestre 3\programacion 1\proyecto 2024\f2 v.01\main.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<cmath>
+
