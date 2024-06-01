@@ -1,3 +1,4 @@
+# Graficador de Figuras Geometricas
 # Manual de Usuario
 
 ## Descripcion
@@ -42,12 +43,12 @@ El usuario podra movilizar el cursor para elegir la posicion, caracter y color d
 - **F9**: Limpiar la pantalla.
 - **F10**: Cambiar el color del carácter de dibujo.
 - **F11**: Grabar la pantalla.
-- **A**: Abrir archivo y mostrar en pantalla.
+- **Ctrl + A**: Abrir archivo y mostrar en pantalla.
 
 ### Selección de Formas y Características
 
 1. **Después de presionar `F12`**: selecciona la forma geométrica presionando la tecla correspondiente.
-2. **Para cada forma**: ingrese las dimensiones cuando se solicite (tamaño del lado, radio, etc.).
+2. **Para cada forma**: ingrese las dimensiones cuando se solicite (tamaño del lado, radio, orientacion, etc.).
 3. **Para cambiar el carácter de dibujo**: Presiona `F8` y luego ingresa el nuevo carácter.
 4. **Para cambiar el color del carácter**: Presiona `F10`, selecciona el color e ingresa su número correspondiente.
 
