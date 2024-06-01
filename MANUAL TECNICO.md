@@ -12,6 +12,8 @@ Este programa realizado en el lenguaje c++ permite dibujar ciertas figuras geome
 - #include <conio.h> : Provee funciones para manipulación de consola.
 - #include <windows.h> : Provee funciones específicas de Windows, como manipulación de la posición del cursor y colores.
 - #include <cmath> : Provee funciones matemáticas, como sqrt y pow.
+- #include <fstream> : Permite trabajar con archivos de entrada y salida.
+- #include <vector> : Permite el uso de contenedores dinámicos para almacenar y manipular datos de manera eficiente.
 
 ## Constantes
 
