@@ -4,7 +4,7 @@
 ## Descripcion
 
 Este programa realizado en C++ permite dibujar figuras geometricas distintas (triángulo, cuadrado, rectángulo, círculo, línea, rombo, hexágono) en la consola utilizando caracteres.
-El usuario podra movilizar el cursor para elegir la posicion, caracter y color de las figuras.
+El usuario podra movilizar el cursor para elegir la posicion, caracter y color de las figuras, asi mismo podra grabar sus figuras ya realizadas en archivos y poder cargarlas nuevamente.
 
 ## Requisitos Previos
 
@@ -28,6 +28,7 @@ El usuario podra movilizar el cursor para elegir la posicion, caracter y color d
 2. **Mover el cursor** utilizando las flechas del teclado.
 3. **Presionar `F12`** para iniciar la selección de la forma geométrica a dibujar.
 4. **Ingresar el caracter solicitado segun la accion o figura que se desee realizar.**
+5. **Los caracteres que el programa requiera se deberan ingresar unicamene en lestras MAYUSCULAS.**
 
 ### Controles del programa
 
