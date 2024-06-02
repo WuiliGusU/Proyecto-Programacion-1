@@ -11,9 +11,9 @@ Este programa realizado en el lenguaje c++ permite dibujar ciertas figuras geome
 - #include <iostream> : Provee funciones de entrada/salida estándar.
 - #include <conio.h> : Provee funciones para manipulación de consola.
 - #include <windows.h> : Provee funciones específicas de Windows, como manipulación de la posición del cursor y colores.
-- #include <cmath> : Provee funciones matemáticas, como sqrt y pow.
-- #include <fstream> : Permite trabajar con archivos de entrada y salida.
-- #include <vector> : Permite el uso de contenedores dinámicos para almacenar y manipular datos de manera eficiente.
+- #include cmath : Provee funciones matemáticas, como sqrt y pow.
+- #include fstream : Permite trabajar con archivos de entrada y salida.
+- #include vector : Permite el uso de contenedores dinámicos para almacenar y manipular datos de manera eficiente.
 
 ## Constantes
 
@@ -191,7 +191,36 @@ void menucolores() {
 
 }
 
-**Muestra el menú de selección de colores.**
+**Grabar la Pantalla en un archivo y Luego abrirlo en la consola.**
+
+//Grabar la pantalla//
+
+    void grabarPantalla(const string& filename) {
+    ofstream file(filename);
+    if (file.is_open()) {
+        for (const string& linea : pantalla) {
+            file << linea << endl;
+        }
+        file.close();
+    }
+}
+
+//Abrir archivo guardado//
+    
+    void abrirArchivo(const string& filename) {
+    ifstream file(filename);
+    string line;
+    int y = 0;
+    if (file.is_open()) {
+        while (getline(file, line) && y < pant_anch) {
+            pantalla[y] = line;
+            gotoxy(0, y);
+            cout << line << endl; // Mostrar cada línea en la consola
+            ++y;
+        }
+        file.close();
+    }
+}
 
 ## Funcion Principal 
 
@@ -257,4 +286,7 @@ int main() {
                 dibujarTriangulo(x, y, tamano, nuevoCaracter);
                 break;
           etc...
+
+
+
 
