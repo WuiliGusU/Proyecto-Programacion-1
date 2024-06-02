@@ -28,7 +28,7 @@ El usuario podra movilizar el cursor para elegir la posicion, caracter y color d
 2. **Mover el cursor** utilizando las flechas del teclado.
 3. **Presionar `F12`** para iniciar la selección de la forma geométrica a dibujar.
 4. **Ingresar el caracter solicitado segun la accion o figura que se desee realizar.**
-5. **Los caracteres que el programa requiera se deberan ingresar unicamene en lestras MAYUSCULAS.**
+5. **Los caracteres que el programa requiera se deberan ingresar unicamene en letras MAYUSCULAS.**
 
 ### Controles del programa
 
